@@ -5,8 +5,8 @@ def main():
     Use the same variables: m_perc f_perc
     ##################################################
     """
-    males=float(input("Enter number of males: "))
-    females=float(input("Enter number of females: "))
+    males=int(input("Enter number of males: "))
+    females=int(input("Enter number of females: "))
     total=males+females
     m_perc=(males/total)*100
     f_perc=(females/total)*100

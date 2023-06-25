@@ -1,8 +1,17 @@
 def main():
     """
     ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
+    males=40
+    females=60
+    m_perc=males/100
+    f_perc=females/100
+    total=males+females
+
+    print(total)
+    print(males)
+    print(females)
+    print (f’Percent males \t {m_perc:.2f}’)
+    print (f’Percent females \t {f_perc:.2f}’)
     ##################################################
     """
 
